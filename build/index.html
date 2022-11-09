@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Gulp pack for easy html/php markup development">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp">
+	<link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Стоматология</title>
+</head>
+
+<body>
+	<header>
+   <div class="header-wrapper wrapper">
+      <div class="header-row row">
+         <div class="header-left">
+            <picture class="header-left-picture">
+               <source class="header-left-img" srcset="/img/original.webp">
+               <img class="header-left-img" src="/img/original.png" alt="Фото">
+            </picture>
+         </div>
+         <div class="header-center">
+            <h1 class="header-title">Акция</h1>
+            <h2 class="header-center-description">Профессиональная гигиена зубов + отбеливание системой Opalescence всего за <strong>9900 руб.</strong></h2>
+            <small class="header-center-date">Срок действия акции с <strong>01.12.2013</strong> г.<span></span> до <strong>01.01.2014</strong> г.</small>
+            <p class="header-center-arrow">Сделайте свою улыбку неотразимой и привлекательной</p>
+         </div>
+         <div class="header-right">
+            <form class="header-right-form" action="#" method="POST" enctype="multipart/form-data">
+               <fieldset class="header-right-form-fieldset">
+                  <legend class="header-right-form-title">Участвовать в акции</legend>
+                  <a class="header-right-form-description" href="tel: 78121234567">Для того чтобы принять участие в акции позвоните нам: (812) 123-45-67 или оставьте ваш телефон</a>
+                  <fieldset class="header-right-form-input-wrapper">
+                     <input class="header-right-form-input" id="name" placeholder="Имя Фамилия" type="text" required autocomplete="on" data-validate-field="name">
+                     <label class="header-right-form-label" for="name">Имя Фамилия</label>
+                  </fieldset>
+                  <fieldset class="header-right-form-input-wrapper">
+                     <input class="header-right-form-input" id="phone" placeholder="Контактный телефон" type="text" required autocomplete="on" data-validate-field="phone" data-validate-rules="phone">
+                     <label class="header-right-form-label" for="phone">Контактный телефон</label>
+                  </fieldset>
+                  <button class="header-right-form-send ui-btn ui-btn--red" type="submit">Отправить заявку</button>
+               </fieldset>
+            </form>
+         </div>
+      </div>
+   </div>
+</header>
+	<main class="main"><section class="information-section row">
+   <aside class="information-left information-children">
+      <article class="information-left-article">
+         <h2 class="information-left-title">Преимущества Opalescence:</h2>
+         <ul class="information-left-list">
+            <li class="information-left-item">Безопасность.</li>
+            <li class="information-left-item">Нейтральный рН геля не изменяет структуру зуба.</li>
+            <li class="information-left-item">Вода в составе геля не допускает обезвоживания зуба.</li>
+            <li class="information-left-item">Защита десен</li>
+            <li class="information-left-item">Содержание фторидов уменьшает риск возникновения кариеса.</li>
+            <li class="information-left-item">Быстрый и стойкий результат.</li>
+         </ul>
+      </article>
+      <article class="information-left-article">
+         <h2 class="information-left-title">Наши специалисты</h2>
+         <div class="information-left-swiper swiper">
+            <div class="information-left-swiper-wrapper swiper-wrapper">
+               <div class="information-left-swiper-slide swiper-slide">
+                  <figure class="information-left-swiper-slide-pict">
+                     <a class="information-left-swiper-slide-pict-href" href="#">
+                        <picture class="information-left-swiper-slide-picture">
+                           <source class="information-left-swiper-slide-pict-img" srcset="/img/iii.webp">
+                           <img class="information-left-swiper-slide-pict-img" src="/img/iii.png" alt="Фото">
+                        </picture>
+                     </a>
+                     <figcaption class="information-left-swiper-slide-name"><a class="information-left-swiper-slide-name__href" href="#">Иванов Иван Иванович</a></figcaption>
+                  </figure>
+               </div>
+               <div class="information-left-swiper-slide swiper-slide">
+                  <figure class="information-left-swiper-slide-pict">
+                     <a class="information-left-swiper-slide-pict-href" href="#">
+                        <picture class="information-left-swiper-slide-picture">
+                           <source class="information-left-swiper-slide-pict-img" srcset="/img/ppp.webp">
+                           <img class="information-left-swiper-slide-pict-img" src="/img/ppp.png" alt="Фото">
+                        </picture>
+                     </a>
+                     <figcaption class="information-left-swiper-slide-name"><a class="information-left-swiper-slide-name__href" href="#">Петров Петр Петрович</a></figcaption>
+                  </figure>
+               </div>
+               <div class="information-left-swiper-slide swiper-slide">
+                  <figure class="information-left-swiper-slide-pict">
+                     <a class="information-left-swiper-slide-pict-href" href="#">
+                        <picture class="information-left-swiper-slide-picture">
+                           <source class="information-left-swiper-slide-pict-img" srcset="/img/iii.webp">
+                           <img class="information-left-swiper-slide-pict-img" src="/img/iii.png" alt="Фото">
+                        </picture>
+                     </a>
+                     <figcaption class="information-left-swiper-slide-name"><a class="information-left-swiper-slide-name__href" href="#">Иванов Иван Иванович</a></figcaption>
+                  </figure>
+               </div>
+               <div class="information-left-swiper-slide swiper-slide">
+                  <figure class="information-left-swiper-slide-pict">
+                     <a class="information-left-swiper-slide-pict-href" href="#">
+                        <picture class="information-left-swiper-slide-picture">
+                           <source class="information-left-swiper-slide-pict-img" srcset="/img/ppp.webp">
+                           <img class="information-left-swiper-slide-pict-img" src="/img/ppp.png" alt="Фото">
+                        </picture>
+                     </a>
+                     <figcaption class="information-left-swiper-slide-name"><a class="information-left-swiper-slide-name__href" href="#">Петров Петр Петрович</a></figcaption>
+                  </figure>
+               </div>
+               <div class="information-left-swiper-slide swiper-slide">
+                  <figure class="information-left-swiper-slide-pict">
+                     <a class="information-left-swiper-slide-pict-href" href="#">
+                        <picture class="information-left-swiper-slide-picture">
+                           <source class="information-left-swiper-slide-pict-img" srcset="/img/iii.webp">
+                           <img class="information-left-swiper-slide-pict-img" src="/img/iii.png" alt="Фото">
+                        </picture>
+                     </a>
+                     <figcaption class="information-left-swiper-slide-name"><a class="information-left-swiper-slide-name__href" href="#">Иванов Иван Иванович</a></figcaption>
+                  </figure>
+               </div>
+               <div class="information-left-swiper-slide swiper-slide">
+                  <figure class="information-left-swiper-slide-pict">
+                     <a class="information-left-swiper-slide-pict-href" href="#">
+                        <picture class="information-left-swiper-slide-picture">
+                           <source class="information-left-swiper-slide-pict-img" srcset="/img/ppp.webp">
+                           <img class="information-left-swiper-slide-pict-img" src="/img/ppp.png" alt="Фото">
+                        </picture>
+                     </a>
+                     <figcaption class="information-left-swiper-slide-name"><a class="information-left-swiper-slide-name__href" href="#">6 Петров Петр Петрович</a></figcaption>
+                  </figure>
+               </div>
+            </div>
+            <div class="information-left-swiper-button-prev swiper-button-prev"></div>
+            <div class="information-left-swiper-button-next swiper-button-next"></div>
+            <div class="information-left-swiper-pagination swiper-pagination"></div>
+         </div>
+      </article>
+   </aside>
+   <article class="information-center information-children">
+      <header class="information-center-header">
+         <h2 class="information-center-header__title">В стоимость входит</h2>
+         <ul class="information-center-header-services">
+            <li class="information-center-services__item">профессиональная чистка зубов</li>
+            <li class="information-center-services__item">отбеливание зубов системой Opalescence</li>
+         </ul>
+      </header>
+      <div class="information-center-body">
+         <h2 class="informatipon-center-body__title">Отзывы о чистке зубов</h2>
+         <ul class="information-center-body-reviews">
+            <li class="information-center-body-reviews-item">
+               <a class="information-center-body-reviews-item__href" href="#">Сегодня была в вашей клинике, мне провели процедуру по снятию зубных отложений</a>
+            </li>
+            <li class="information-center-body-reviews-item">
+               <a class="information-center-body-reviews-item__href" href="#">В субботу была на чистке зубов (камни, налет)</a>
+            </li>
+         </ul>
+      </div>
+   </article>
+   <aside class="information-right information-children">
+      <article class="information-right-benefits">
+         <h2 class="information-right-benefits__title">Наши преимущества</h2>
+         <ul class="information-right-benefits-wrapper">
+            <li class="information-right-benefits-content">
+               <svg class="icon icon-siren">
+                  <use xlink:href="img/sprite.svg#siren" />
+               </svg>
+               Гарантированное получение помощи при острой боли в день боли в день обращения
+            </li>
+            <li class="information-right-benefits-content">
+               <svg class="icon icon-guarantee">
+                  <use xlink:href="img/sprite.svg#guarantee" />
+               </svg>
+               Гарантия на все виды стоматологических услуг
+            </li>
+            <li class="information-right-benefits-content">
+               <svg class="icon icon-equality">
+                  <use xlink:href="img/sprite.svg#equality" />
+               </svg>
+               Обслуживание по ДМС
+            </li>
+         </ul>
+      </article>
+   </aside>
+</section>
+	</main>
+	
+	<script src="js/swiper-bundle.min.js"></script>
+<script src="js/inputmask.min.js"></script>
+<script src="js/just-validate.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
